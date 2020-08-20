@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+
+}
+.header {
+    height: 42px;
+    background-color: pink;
+    /* 注意，此地会层叠w 所以要用auto */
+    margin: 30px auto;
+}
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+    /* background-color: purple; */
+    /* background-image: url(../images/logo.png); */
+}
+.nav {
+    float: left;
+    margin-left: 60px;  
+
+}
+.nav li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    color: #050505;
+    font-size: 18px;
+}
